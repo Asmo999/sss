@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-x">
+
+    </div>
+    <form action="/action_page.php" id="myForm">
+      <div>
+        <input type="date" id="date" name="date" />
+      </div>
+      <br />
+      <div>
+        <select name="roll" id="roll" form="roll">
+          <option value="" disabled selected hidden>მონიშნე ბრუნვა</option>
+          <option value="income">შესავალი</option>
+          <option value="expanse">გასავალი</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <select id="income" name="category" form="categoryform">
+          <option value="" disabled selected hidden>კატეგორია</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <input
+          type="number"
+          id="fullPay"
+          name="fullPay"
+          placeholder="ჯამური თანხა"
+        />
+      </div>
+      <br />
+      <input type="submit" name="submit" id="submitbtn" value="დამატება" />
+    </form>
+    <br>
+    <br>
+    <a href="main.html">ნახეთ ხარჯები</a>
+
+    <script src="index.js"></script>
+  </body>
+</html>
